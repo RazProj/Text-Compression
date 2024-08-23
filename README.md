@@ -26,5 +26,5 @@ filters the text to include only printable ASCII characters, and saves the outpu
 #### Data Compression
 
 The C programs implement Huffman coding, a lossless data compression algorithm.
-The dataPreperation.c script prepares the data, and huffman.c handles the actual encoding and decoding process using the Huffman tree.
+The dataPreperation.c script prepares the data, and huffman.c handles the actual encoding process using the Huffman tree.
 
