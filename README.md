@@ -25,6 +25,11 @@ filters the text to include only printable ASCII characters, and saves the outpu
 
 #### Data Compression
 
-The C programs implement Huffman coding, a lossless data compression algorithm.
-The dataPreperation.c script prepares the data, and huffman.c handles the actual encoding process using the Huffman tree.
+The C programs implement Huffman coding, a lossless data compression algorithm. <br>
+The dataPreperation.c script prepares the data, and huffman.c handles the actual encoding process using the Huffman tree. <br>
+At the end, you will get a file containing the Huffman encoding, which includes:
+* The bit string representation of each letter.
+* The entire text encoded as a bit string.
+* The original text size extracted from the PDF file.
+* The size of the text after being converted to Huffman code.
 
