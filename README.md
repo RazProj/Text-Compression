@@ -17,11 +17,14 @@ The core features include converting PDF files to text, preparing data for compr
 * HuffmanCodes.txt: A text file containing Huffman codes used for encoding and decoding.
 
 ### How It Works
-PDF to Text Extraction
+
+#### PDF to Text Extraction
+
 The pdfToTxt.py script uses the PyPDF2 library to read the content of each page in a PDF file,
 filters the text to include only printable ASCII characters, and saves the output to a text file.
 
-Data Compression
+#### Data Compression
+
 The C programs implement Huffman coding, a lossless data compression algorithm.
 The dataPreperation.c script prepares the data, and huffman.c handles the actual encoding and decoding process using the Huffman tree.
 
